@@ -58,7 +58,7 @@ input:focus{
     border-color: aqua;
 }
 
-.error{
+#error{
     text-align: center;
     margin-top: 1.25em;
     color: red;

@@ -7,9 +7,7 @@ decimalInput.addEventListener("input", () => {
     //Converts The Decimal to Binary
     binaryInput.value = decimalValue.toString(2);
 })
-
 //Covert Binary to Decimal
-
 binaryInput.addEventListener("input", () => {
     let binaryValue = binaryInput.value;
     //(if)Valid then Convert (else) snt a error msg
@@ -19,10 +17,7 @@ binaryInput.addEventListener("input", () => {
     } else {
         errorMsg.textContent = "Please Enter a Valid Binary"
     }
-
-
     //Binary = 1 and 0, entering other show error
-
     function binaryValidator(num){
         for(let i = 0; i < num.length; i++)
         if(num[i] =! "0" && num[i] != "1"){

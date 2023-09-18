@@ -17,6 +17,7 @@ binaryInput.addEventListener("input", () => {
     } else {
         errorMsg.textContent = "Please Enter a Valid Binary"
     }
+    
     //Binary = 1 and 0, entering other show error
     function binaryValidator(num){
         for(let i = 0; i < num.length; i++)

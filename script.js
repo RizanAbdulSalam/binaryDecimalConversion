@@ -8,7 +8,6 @@ decimalInput.addEventListener("input", () => {
     binaryInput.value = decimalValue.toString(2);
 })
 
-
 //Covert Binary to Decimal
 binaryInput.addEventListener("input", () => {
     let binaryValue = binaryInput.value;
